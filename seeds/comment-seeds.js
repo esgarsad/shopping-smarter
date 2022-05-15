@@ -9,7 +9,7 @@ const commentdata = [
   {
     comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
     user_id: 6,
-    post_id: 8
+    post_id: 2
   }
 ];
 
