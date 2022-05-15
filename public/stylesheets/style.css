@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #3D550C;
+  --secondary: #59981A;
+  --tertiary:#ECF87F;
+}
+
+
 body, html {
   height: 100%;
   padding: 0;
@@ -12,17 +19,19 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: var(--secondary);
   font-weight: bold;
   transition: color .1s;
+  font-family: 'cursive'; /*y*/
 }
 
+
 a:hover {
-  color: #3486eb;
+  color: var(--primary);
 }
 
 button {
-  background-color: #225ca3;
+  background-color: var(--secondary);
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +42,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: var(--primary);
 }
 
 .post-list {
@@ -49,7 +58,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid var(--primary);
 }
 
 textarea {
@@ -80,10 +89,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  /*text-shadow: 0 0 10px rgb(224, 240, 1);*/
+
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 3em;
 }
 
 main {
@@ -97,7 +108,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: var(--secondary);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -106,7 +117,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: var(--primary);
 }
 
 .delete-post-btn {
@@ -175,4 +186,6 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  color: var(--primary);
 }
+
