@@ -19,7 +19,9 @@
         <a href="/dashboard">dashboard</a>
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="/login">Sell it with us!</a>
+                <form action="/login">
+                <button type="submit" id="sell-it" class="btn-style">Sell it with us!</button>
+               </form>
         {{/if}}
       </nav>
     </header>
