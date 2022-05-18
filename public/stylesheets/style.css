@@ -26,6 +26,17 @@ a {
 }
 
 
+/* Navbar links */ /*yop*/
+.navbar a {
+  float: left;
+  text-align: center;
+  justify-items:center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
 a:hover {
   color: var(--primary);
 }
