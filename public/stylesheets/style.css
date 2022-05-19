@@ -16,13 +16,35 @@ body, html {
   font-family: sans-serif;
   color: #333;
 }
+/* Navbar links */ /*ADD*/
+.header nav  {
+  float: left;
+  justify-items:space-around;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 28px; 
+}
 
+
+  
 a {
   text-decoration: none;
   color: var(--secondary);
   font-weight: bold;
   transition: color .1s;
   font-family: 'cursive'; /*y*/
+}
+
+
+/* Navbar links */ /*yop*/
+nav {
+    width: 60%;
+  float: left;
+  text-align: center;
+  justify-content:space-around;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 
@@ -66,7 +88,9 @@ textarea {
   min-height: 100px;
 }
 
-form > div {
+form  {
+  display: flex;
+  justify-content: center;
   margin-bottom: 2%;
 }
 
