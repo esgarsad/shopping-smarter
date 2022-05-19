@@ -4,7 +4,7 @@ var searchBtnEl = document.querySelector("#submit-form");
 var eventSubmit = function(event) {
     event.preventDefault();
     var productChosen = searchTextEl.value.trim();
-  displayProducts(productChosen);
+  //displayProducts(productChosen);
 console.log(productChosen);
     searchTextEl.value = "";
      
