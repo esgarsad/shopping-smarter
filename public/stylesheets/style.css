@@ -27,10 +27,11 @@ a {
 
 
 /* Navbar links */ /*yop*/
-.navbar a {
+nav {
+    width: 60%;
   float: left;
   text-align: center;
-  justify-items:center;
+  justify-content:space-around;
   padding: 12px;
   text-decoration: none;
   font-size: 17px;
@@ -71,13 +72,18 @@ textarea:focus, input:focus {
   outline: none;
   border: 1px solid var(--primary);
 }
+ .card-content{
+
+ }
 
 textarea {
   min-width: 40%;
   min-height: 100px;
 }
 
-form > div {
+form  {
+  display: flex;
+  justify-content: center;
   margin-bottom: 2%;
 }
 
