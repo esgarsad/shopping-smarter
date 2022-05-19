@@ -16,7 +16,17 @@ body, html {
   font-family: sans-serif;
   color: #333;
 }
+/* Navbar links */ /*ADD*/
+.header nav  {
+  float: left;
+  justify-items:space-around;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 28px; 
+}
 
+
+  
 a {
   text-decoration: none;
   color: var(--secondary);
@@ -24,18 +34,6 @@ a {
   transition: color .1s;
   font-family: 'cursive'; /*y*/
 }
-
-
-/* Navbar links */ /*yop*/
-.navbar a {
-  float: left;
-  text-align: center;
-  justify-items:center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 
 a:hover {
   color: var(--primary);

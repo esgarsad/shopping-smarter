@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping Smarter</title>
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"> add-->
 <link rel="stylesheet" href="/stylesheets/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--add-->
 
 </head>
 
@@ -21,10 +22,10 @@
 
          <form class="card-content white-text" id= "submit-form">
           <input name="product-input" placeholder= "Look for something" id="type-event" type="text" autofocus="true" class="product-input"/>
-         <button type="submit" class="btn" id="submit"><i class="fa fa-fw fa-search "></i>Search</button>  <!--yop -->
+         <button type="submit" class="icon-placeholder" id="submit"><i class="fa fa-fw fa-search "></i>Search</button>  <!--add -->
 
         <a href="btn-login">
-         <button type="login" class="btn" id="login"><i class="fa fa-fw fa-user"></i>Login</button> </a> <!--yop -->
+         <button type="login" class="btn" id="login"><i class="fa fa-fw fa-user"></i>Login</button> </a> <!--add -->
        
         </form>
 
@@ -48,7 +49,9 @@
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
+ 
+
   {{/if}}
 </body>
-
+ <script src="/javascript/search.js"></script> <!--add-->
 </html>
