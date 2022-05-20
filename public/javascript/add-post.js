@@ -11,6 +11,7 @@ async function newFormHandler(event) {
       short_desc,
     price,
     extend_desc,
+    city,
     }),
     headers: {
       'Content-Type': 'application/json'

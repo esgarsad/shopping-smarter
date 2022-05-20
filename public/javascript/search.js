@@ -1,11 +1,22 @@
 var searchTextEl = document.querySelector(".product-input");
 var searchBtnEl = document.querySelector("#submit-form");
 
-var eventSubmit = function(event) {
+var eventSubmit = async function(event) {
     event.preventDefault();
-    var productChosen = searchTextEl.value.trim();
-  displayProducts(productChosen);
-console.log(productChosen);
+    var keyword = searchTextEl.value.trim();
+    if (keyword) {
+      const response = await fetch(`/posts/search/${keyword}`, {
+        method: 'GET'
+      });
+  
+      if (response.ok) {
+        document.location.replace('/');
+      
+      } else {
+        alert(response.statusText);
+      }
+    }
+
     searchTextEl.value = "";
      
   }
