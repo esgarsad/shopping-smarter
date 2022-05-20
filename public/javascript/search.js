@@ -10,7 +10,7 @@ var eventSubmit = async function(event) {
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace(`/posts/search/${keyword}`);
       
       } else {
         alert(response.statusText);
