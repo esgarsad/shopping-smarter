@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
       'title',
       'extend_desc',
       'created_at',
+      'city'
     ],
     include: [
       {
@@ -49,6 +50,7 @@ router.get('/search/:keyword', (req, res) => {
       'title',
       'extend_desc',
       'created_at',
+      'city'
     ],
     include: [
       {
@@ -92,6 +94,7 @@ router.get('/:id', (req, res) => {
       'title',
       'extend_desc',
       'created_at',
+      'city'
     ],
     include: [
       {
@@ -130,7 +133,8 @@ router.post('/', withAuth, (req, res) => {
     short_desc: req.body.short_desc,
     price: req.body.price,
     extend_desc: req.body.extend_desc,
-    user_id: req.session.user_id
+    user_id: req.session.user_id,
+    city: req.body.city
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
