@@ -32,6 +32,15 @@
     <button type="submit" class="btn">Create</button>
   </div> 
  </form>
+  <form method="POST" action="/api/posts/upload" enctype="multipart/form-data">
+        <div>
+            <label>Upload picture</label>
+            <input type="file" name="upload" required/>
+        </div>
+        <div>
+            <input type="submit" value="upload" />
+        </div>
+    </form>
 </section>
 
 {{#if posts.length}}

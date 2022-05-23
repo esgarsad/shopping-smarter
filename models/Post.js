@@ -32,6 +32,10 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
           },
+          image: {
+            type: Buffer,
+            allowNull: true,
+          },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
