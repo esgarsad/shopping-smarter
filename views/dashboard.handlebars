@@ -2,16 +2,36 @@
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
+
+    <div class="col-12">
     <div>
       <label for="post-title">Title</label>
-      <input type="text" id="post-title" name="post-title" />
+      <input type="text" id="post-title" name="post-title" placeholder="What are you selling?"/>
     </div>
+
+        <div>
+      <label for="short-desc">Describe your item</label>
+      <input type="text" id="short-desc" name="short-desc" placeholder="0/1000"/>
+    </div>
+
     <div>
-      <label for="short-desc">Link</label>
-      <input id="short-desc" name="short-desc" />
+      <label for="post-detalls">Detalls</label>
+      <input type="text" id="post-detalls" name="post-detalls" placeholder=""/>
     </div>
+
+    <div>
+      <label for="post-city">Location</label>
+      <input type="text" id="post-city" name="post-city" placeholder=""/>
+    </div>
+
+    <div>
+      <label for="post-price">Pricing</label>
+      <input type="text" id="post-price" name="post-price" placeholder=""/>
+    </div>
+
     <button type="submit" class="btn">Create</button>
-  </form>
+  </div> 
+ </form>
 </section>
 
 {{#if posts.length}}
