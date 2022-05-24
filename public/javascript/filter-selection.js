@@ -49,13 +49,13 @@ function fetchData05() {
          return response.json();
        })
        .then(data => {
-         console.log(data[5].title);
+         console.log(data.title);
   
 //
 
          document.querySelector('RESULTS').innerHTML = (data[5].title);
-         document.querySelector('iMAGE').innerHTML = (data[5].description);
-         document.querySelector('description').innerHTML = (data[5].description);
+         document.querySelector('IMAGE').innerHTML = (data[5].description);
+         document.querySelector('DESCRIPTION').innerHTML = (data[5].description);
        }).catch(error => {
          console.log(error);
        })
