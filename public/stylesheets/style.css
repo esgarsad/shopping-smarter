@@ -31,6 +31,23 @@ body, html {
   text-decoration: none;
   font-size: 28px; 
 }
+
+#mainhead {
+ width: 100px;
+ display: inline-flex;
+}
+
+#logo {
+ margin: auto 5px;
+ float: left;
+ width: 105px;
+ height:105px;
+ mask-border: 30px;
+}
+
+#subhead {
+  background-color: red;
+}
  
 a {
   text-decoration: none;
@@ -119,6 +136,7 @@ form label {
 }
 
 header {
+  background-color: antiquewhite;
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -205,6 +223,8 @@ main {
 .edit-post-form {
   margin-bottom: 5%;
 }
+
+
 
 footer {
   border-top: 1px solid #ccc;
