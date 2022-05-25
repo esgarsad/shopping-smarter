@@ -3,11 +3,18 @@
 }
 
 :root {
-  --primary: #3D550C;
+  --primary: #ff4b04;;
   --secondary: #59981A;
   --tertiary:#e8f479;
 }
 
+.img-fluid {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
 
 body, html {
   height: 100%;
@@ -24,19 +31,18 @@ body, html {
   text-decoration: none;
   font-size: 28px; 
 }
-
-
-  
+ 
 a {
   text-decoration: none;
   color: var(--secondary);
   font-weight: bold;
   transition: color .1s;
-  font-family: 'cursive'; /*y*/
+  font-family: 'cursive';
+  
 }
 
 
-/* Navbar links */ /*yop*/
+/* Navbar links */ 
 nav {
     width: 60%;
   float: left;
@@ -50,6 +56,10 @@ nav {
 
 a:hover {
   color: var(--primary);
+}
+
+.title a {
+font-size: 20px ;
 }
 
 button {
@@ -201,7 +211,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 110%;
+  font-size: 130%;
   color: var(--primary);
 }
 
