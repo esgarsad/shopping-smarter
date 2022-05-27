@@ -15,11 +15,11 @@ Create a user by signing up and then you can post and add coments to posts from 
 Shopping-Smarter is still under development to allow more filtering and images options
 
 
-![Shopping-Smarter](https://github.com/esgarsad/note-taker/blob/main/public/assets/images/shopping-smarter.jpg)
+![Shopping-Smarter](https://github.com/esgarsad/shopping-smarter/blob/develop/public/images/shopping-smarter.jpg)
 
 ## Contributing
 
-Thank you for your interest, you can contribute by contacting our team throgh github
+Thank you for your interest, you can contribute by contacting our team through github
 
 -antjc1005
 -cnl-95
