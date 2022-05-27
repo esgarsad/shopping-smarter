@@ -1,6 +1,6 @@
 # Shopping Smarter
 
-Shopping-Smarter is a full stack application where people can by and sell stuff for free. Signup is required to improve users security. Information is stored backend through sequelize.
+Shopping-Smarter is a full stack application where people can buy and sell stuff for free. Signup is required to improve users security. Information is stored backend through sequelize.
 
 ## Installation
 
