@@ -8,11 +8,20 @@ Site is deployed and functional in Heroku  https://fathomless-bayou-71383.heroku
 
 ## Use
 
-Create a user by signing up and then you can post and add coments to posts from other users
+Create a user by signing up and then you can post and ask questions about products you are interested.
 
 
 ## Additional notes
-Shopping-Smarter is still under development to allow more filtering and images options
+Shopping-Smarter is still under development to allow more filtering and images options.
+
+## Technologies used
+Html, handlebars,
+CSS, bootstrap,
+JavaScript,
+Mysql,
+sequelize,
+node,
+bcrypt
 
 
 ![Shopping-Smarter](https://github.com/esgarsad/shopping-smarter/blob/develop/public/images/shopping-smarter.jpg)
